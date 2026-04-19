@@ -216,10 +216,10 @@ public class Hostel extends javax.swing.JFrame {
     }//GEN-LAST:event_loginActionPerformed
 
     private void backActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_backActionPerformed
-        MainMenu menu = new MainMenu();
-        menu.show();
-        menu.pack();
-        menu.setLocationRelativeTo(null);
+        firstPage hostel = new firstPage();
+        hostel.pack();
+        hostel.setLocationRelativeTo(null);
+        hostel.show();
         this.dispose();
     }//GEN-LAST:event_backActionPerformed
 
